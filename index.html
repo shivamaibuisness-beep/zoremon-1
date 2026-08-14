@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoro Trader | Premium Quotex Signals</title>
+  <meta name="description" content="Join Zoro Trader – Exclusive Quotex trading signals with high accuracy. Free VIP access on Telegram.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2100088200596628');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2100088200596628&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    :root {
+      --bg-dark: #05070a;
+      --bg-card: #0c1118;
+      --gold: #f0b429;
+      --gold-soft: #f6c95c;
+      --green: #00e676;
+      --red: #ff3d57;
+      --text: #e8edf5;
+      --text-muted: #8b97a8;
+      --border: rgba(240, 180, 41, 0.18);
+      --glow: 0 0 40px rgba(240, 180, 41, 0.25);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    body {
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(240, 180, 41, 0.12), transparent),
+        radial-gradient(ellipse 60% 40% at 80% 80%, rgba(0, 230, 118, 0.05), transparent),
+        radial-gradient(ellipse 50% 30% at 10% 70%, rgba(255, 61, 87, 0.04), transparent),
+        var(--bg-dark);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+      position: relative;
+    }
+
+    /* Subtle animated grid */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(240, 180, 41, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(240, 180, 41, 0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 480px;
+      text-align: center;
+    }
+
+    .card {
+      background: linear-gradient(165deg, rgba(18, 24, 34, 0.95) 0%, rgba(8, 12, 18, 0.98) 100%);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 40px 28px 36px;
+      box-shadow:
+        0 25px 50px -12px rgba(0, 0, 0, 0.7),
+        0 0 0 1px rgba(255, 255, 255, 0.03) inset,
+        var(--glow);
+      backdrop-filter: blur(20px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      opacity: 0.6;
+    }
+
+    .logo-wrap {
+      width: 140px;
+      height: 140px;
+      margin: 0 auto 24px;
+      border-radius: 28px;
+      overflow: hidden;
+      border: 2px solid rgba(240, 180, 41, 0.35);
+      box-shadow: 0 12px 40px rgba(240, 180, 41, 0.2), 0 0 0 6px rgba(240, 180, 41, 0.06);
+      position: relative;
+    }
+
+    .logo-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(0, 230, 118, 0.12);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 18px;
+      border: 1px solid rgba(0, 230, 118, 0.25);
+    }
+
+    .badge::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      background: var(--green);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--green);
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.85); }
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.75rem, 6vw, 2.15rem);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      background: linear-gradient(135deg, #fff 0%, var(--gold-soft) 50%, var(--gold) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-bottom: 28px;
+      line-height: 1.5;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    .feature {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 14px;
+      padding: 14px 10px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .feature strong {
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 2px;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .cta-wrap {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .cta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      padding: 18px 24px;
+      background: linear-gradient(135deg, #0088cc 0%, #00a0e8 50%, #00b4ff 100%);
+      color: #fff;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      border: none;
+      border-radius: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 8px 30px rgba(0, 136, 204, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+      opacity: 0.55;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .cta.enabled {
+      opacity: 1;
+      pointer-events: auto;
+      animation: ctaGlow 2.5s ease-in-out infinite;
+    }
+
+    .cta:hover.enabled {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 36px rgba(0, 136, 204, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+    }
+
+    .cta:active.enabled {
+      transform: translateY(0);
+    }
+
+    .cta svg {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+
+    @keyframes ctaGlow {
+      0%, 100% { box-shadow: 0 8px 30px rgba(0, 136, 204, 0.45); }
+      50% { box-shadow: 0 8px 40px rgba(0, 180, 255, 0.6); }
+    }
+
+    .cta-lock {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(5, 7, 10, 0.75);
+      border-radius: 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+      backdrop-filter: blur(4px);
+      transition: opacity 0.4s ease, visibility 0.4s;
+    }
+
+    .cta-lock.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .trust {
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .trust svg {
+      width: 14px;
+      height: 14px;
+      color: var(--green);
+    }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 11px;
+      color: rgba(139, 151, 168, 0.7);
+      line-height: 1.6;
+      max-width: 360px;
+    }
+
+    .footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    /* Floating particles for premium feel */
+    .particle {
+      position: fixed;
+      width: 4px;
+      height: 4px;
+      background: var(--gold);
+      border-radius: 50%;
+      opacity: 0.3;
+      pointer-events: none;
+      z-index: 0;
+      animation: float 12s linear infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(100vh) scale(0); opacity: 0; }
+      10% { opacity: 0.4; }
+      90% { opacity: 0.2; }
+      100% { transform: translateY(-20vh) scale(1); opacity: 0; }
+    }
+
+    /* Honeypot - hidden from real users */
+    .hp {
+      position: absolute;
+      left: -9999px;
+      opacity: 0;
+      height: 0;
+      width: 0;
+      overflow: hidden;
+    }
+
+    @media (max-width: 420px) {
+      .card {
+        padding: 32px 20px 28px;
+        border-radius: 22px;
+      }
+      .logo-wrap {
+        width: 120px;
+        height: 120px;
+        border-radius: 22px;
+      }
+      .features {
+        gap: 10px;
+      }
+      .feature {
+        padding: 12px 8px;
+        font-size: 12px;
+      }
+      .feature strong {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Decorative particles -->
+  <div class="particle" style="left:10%; animation-delay:0s;"></div>
+  <div class="particle" style="left:25%; animation-delay:2s; width:3px; height:3px;"></div>
+  <div class="particle" style="left:55%; animation-delay:4s;"></div>
+  <div class="particle" style="left:75%; animation-delay:1s; width:5px; height:5px;"></div>
+  <div class="particle" style="left:90%; animation-delay:6s;"></div>
+
+  <div class="container">
+    <div class="card">
+      <div class="logo-wrap">
+        <img src="https://i.ibb.co/8n3r0hHK/zoro-logo.jpg" alt="Zoro Trader Logo" width="140" height="140" loading="eager">
+      </div>
+
+      <div class="badge">Live Signals</div>
+
+      <h1>ZORO TRADER</h1>
+      <p class="subtitle">Premium Quotex Signals • High Accuracy • Daily Wins</p>
+
+      <div class="features">
+        <div class="feature">
+          <strong>90%+</strong>
+          Win Rate Focus
+        </div>
+        <div class="feature">
+          <strong>VIP</strong>
+          Free Access
+        </div>
+        <div class="feature">
+          <strong>24/7</strong>
+          Market Coverage
+        </div>
+        <div class="feature">
+          <strong>Fast</strong>
+          Entry Alerts
+        </div>
+      </div>
+
+      <!-- Honeypot for bots -->
+      <div class="hp" aria-hidden="true">
+        <label>Leave blank</label>
+        <input type="text" name="website" id="hp-field" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="cta-wrap">
+        <a href="https://telegram.me/+QqrpLG2holRmZWRk" 
+           class="cta" 
+           id="joinBtn" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           data-protected="true">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.693-1.653-1.124-2.678-1.8-1.185-.781-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.442-.752-.244-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.831-2.529 6.998-3.015 3.333-1.386 4.025-1.627 4.477-1.635.099-.002.321.023.465.141.121.099.155.232.171.326.016.094.036.308.02.475z"/>
+          </svg>
+          Join Free Channel
+        </a>
+        <div class="cta-lock" id="ctaLock">
+          <span id="lockText">Verifying...</span>
+        </div>
+      </div>
+
+      <div class="trust">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+        Secure Telegram Invite • No Registration Required
+      </div>
+    </div>
+
+    <p class="footer">
+      Trading involves risk. Past performance is not indicative of future results.<br>
+      This is not financial advice. Join at your own risk.
+    </p>
+  </div>
+
+  <script>
+    (function () {
+      // === Fake / bot click protection ===
+      const btn = document.getElementById('joinBtn');
+      const lock = document.getElementById('ctaLock');
+      const lockText = document.getElementById('lockText');
+      const hp = document.getElementById('hp-field');
+
+      let humanScore = 0;
+      let mouseMoved = false;
+      let touchStarted = false;
+      let unlocked = false;
+      const TELEGRAM_URL = 'https://telegram.me/+QqrpLG2holRmZWRk';
+
+      // Detect real human interaction
+      function scoreHuman() {
+        if (unlocked) return;
+        humanScore++;
+        if (humanScore >= 2 || (mouseMoved && humanScore >= 1)) {
+          unlockButton();
+        }
+      }
+
+      document.addEventListener('mousemove', function (e) {
+        if (!mouseMoved && (e.movementX !== 0 || e.movementY !== 0)) {
+          mouseMoved = true;
+          scoreHuman();
+        }
+      }, { passive: true, once: false });
+
+      document.addEventListener('touchstart', function () {
+        touchStarted = true;
+        scoreHuman();
+      }, { passive: true });
+
+      document.addEventListener('scroll', scoreHuman, { passive: true, once: true });
+      document.addEventListener('keydown', scoreHuman, { once: true });
+
+      // Time-based unlock (bots usually click instantly)
+      setTimeout(function () {
+        scoreHuman();
+        if (!unlocked) {
+          lockText.textContent = 'Almost ready...';
+        }
+      }, 1200);
+
+      setTimeout(function () {
+        if (!unlocked) unlockButton();
+      }, 2800);
+
+      function unlockButton() {
+        if (unlocked) return;
+        unlocked = true;
+        btn.classList.add('enabled');
+        lock.classList.add('hidden');
+      }
+
+      // Click handler with protection
+      btn.addEventListener('click', function (e) {
+        // Honeypot filled = bot
+        if (hp && hp.value) {
+          e.preventDefault();
+          return false;
+        }
+
+        // Require human signal
+        if (!unlocked) {
+          e.preventDefault();
+          return false;
+        }
+
+        // Track conversion with Meta Pixel
+        if (typeof fbq === 'function') {
+          fbq('track', 'Lead');
+          fbq('trackCustom', 'TelegramJoin');
+        }
+
+        // Allow navigation (href already set)
+      });
+
+      // Extra: prevent programmatic click simulation early
+      btn.addEventListener('mousedown', function (e) {
+        if (!unlocked) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
